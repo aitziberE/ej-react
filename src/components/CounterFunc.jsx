@@ -11,19 +11,19 @@ function CounterFunc(props) {
     }
 
     return (
-        <div>
+        <div className="Counter">
             <div>{counter}</div>
             <div>
-                <button onClick={increment(1)}>+1</button>
-                <button onClick={increment(2)}>+2</button>
-                <button onClick={increment(3)}>+3</button>
-                <button onClick={increment(4)}>+4</button>
-                <button onClick={increment(5)}>+5</button>
                 <button onClick={decrement(1)}>-1</button>
                 <button onClick={decrement(2)}>-2</button>
                 <button onClick={decrement(3)}>-3</button>
                 <button onClick={decrement(4)}>-4</button>
                 <button onClick={decrement(5)}>-5</button>
+                <button onClick={increment(1)}>+1</button>
+                <button onClick={increment(2)}>+2</button>
+                <button onClick={increment(3)}>+3</button>
+                <button onClick={increment(4)}>+4</button>
+                <button onClick={increment(5)}>+5</button>
             </div>
         </div>
     )
